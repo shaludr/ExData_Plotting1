@@ -5,7 +5,7 @@ source("graph_coursera.R")
 data <- GetData()
 if (is.data.frame(data))
 { 
-  png(filename= "plot2.png", width=480, height=480, bg = "transparent")
+  png(filename= "plot2.png", width=480, height=480, bg = "white")
   plot(data$Time, 
        data$Global_active_power,
        type = "l", xlab = "", 

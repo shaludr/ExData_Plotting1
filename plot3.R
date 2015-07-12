@@ -4,7 +4,7 @@ source("graph_coursera.R")
 data <- GetData()
 if (is.data.frame(data))
 { #note: png() needs to be opened before plotting, else you get a blank screen
-  png(filename= "plot3.png", width=480, height=480, bg = "transparent")
+  png(filename= "plot3.png", width=480, height=480, bg = "white")
   plot(data$Time, 
        data$Sub_metering_1,
        type = "l", xlab = "", 

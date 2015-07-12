@@ -5,7 +5,7 @@ data <- GetData()
 if (is.data.frame(data))
 { 
   
-  png(filename= "plot4.png", width=480, height=480, bg = "transparent")
+  png(filename= "plot4.png", width=480, height=480, bg = "white")
   #par(mfrow) will graph 4 plots on one page
   par(mfrow = c(2,2))
   
